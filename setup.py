@@ -53,9 +53,9 @@ requirements = [
     'regex',
     'contextvars',
     'pyarrow',
-    'tokenizers==0.9.4',
+    'tokenizers',
     'protobuf',
-    'sentencepiece==0.1.95',
+    'sentencepiece',
     'pandas'
 ]
 
@@ -72,7 +72,7 @@ setup(
     description='MXNet GluonNLP Toolkit (DeepNumpy Version)',
     long_description_content_type='text/markdown',
     license='Apache-2.0',
-    url='https://github.com/sxjscience/autogluon-contrib-nlp',
+    url='https://github.com/zhilongli/autogluon-contrib-nlp',
     # Package info
     packages=find_packages(where="src", exclude=(
         'tests',
